@@ -1,0 +1,42 @@
+.main {
+  padding: 6rem;
+  max-width: 1600px;
+  width: 100%;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+.fillHeight {
+  padding: 0 150px;
+}
+
+@media (prefers-reduced-motion) {
+  .card:hover span {
+    transform: none;
+  }
+}
+
+/* Tablet */ 
+@media (max-width: 1024px) {
+  .fillHeight {
+    padding: 0 150px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .content {
+    padding: 4rem;
+  }
+  .center {
+    padding: 8rem 0 6rem;
+  }
+
+  .center::before {
+    transform: none;
+    height: 300px;
+  }
+  .fillHeight {
+    padding: 0 80px;
+  }
+}

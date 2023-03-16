@@ -1,0 +1,50 @@
+.hero {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 100vh;
+  height: 100vh;
+  padding: 0px;
+
+  h1 {
+    margin: 0px 0px 30px 4px;
+    color: var(--purple);
+    font-family: var(--font-mono);
+    font-size: clamp(var(--fz-sm), 5vw, var(--fz-md));
+    font-weight: 400;
+  }
+
+  h2 {
+    margin: 0px 0px 10px;
+    font-weight: 600;
+    color: var(--lightest-slate);
+    line-height: 1.1;
+  }
+
+  .big-heading {
+    margin: 0px;
+    font-size: clamp(40px, 8vw, 80px);
+  }
+
+  h3 {
+    margin-top: 5px;
+    color: var(--slate);
+    line-height: 0.9;
+  }
+
+  p {
+    margin: 20px 0px 0px;
+    max-width: 540px;
+  }
+
+  &-link {
+    background: linear-gradient(to right, var(--white) 50%, var(--purple) 0%);
+    background-size: 200% 100%;
+    background-position: left bottom;
+    color: var(--purple);
+    transition: all 2s ease;
+  }
+}

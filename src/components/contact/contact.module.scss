@@ -1,0 +1,47 @@
+.contact {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 100vh;
+  height: 100vh;
+  padding: 0px;
+
+  h2 {
+    margin: 0px 0px 10px;
+    font-weight: 600;
+    color: var(--navy);
+    line-height: 1.1;
+  }
+
+  .big-heading {
+    margin: 0px;
+    font-size: clamp(40px, 8vw, 80px);
+  }
+
+  p {
+    margin: 20px 0px 0px;
+    max-width: 75%;
+  }
+
+  &-link {
+    color: var(--purple);
+  }
+
+  button {
+    color: var(--purple);
+    background-color: transparent;
+    border: 1px solid var(--purple);
+    border-radius: var(--border-radius);
+    padding: 0.75rem 1rem;
+    font-family: var(--font-mono);
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    transition: var(--transition);
+    margin-top: 15px;
+    font-size: var(--fz-xs);
+  }
+}
