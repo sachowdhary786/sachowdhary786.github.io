@@ -28,7 +28,13 @@ export default function Nav() {
             </li>
           </ol>
           <div className={styles.resume}>
-            <Link href=''>Resume</Link>
+            <Link
+              href="/Saad_Chowdhary_Resume.pdf"
+              locale={false}
+              target="_blank"
+            >
+              Resume
+            </Link>
           </div>
         </div>
       </nav>
