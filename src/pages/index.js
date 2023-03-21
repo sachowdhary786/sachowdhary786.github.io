@@ -6,6 +6,7 @@ import styles from "@/styles/home.module.scss";
 import Hero from "@/components/hero/hero";
 import Nav from "@/components/nav/nav";
 import About from "@/components/about/about";
+import Projects from "@/components/projects/projects";
 import Contact from "@/components/contact/contact";
 import Footer from "@/components/footer/footer";
 import Social from "@/components/social/social";
@@ -24,6 +25,7 @@ export default function Home() {
         <Social/>
         <Hero />
         <About />
+        <Projects />
         <Contact />
       </main>
       <Footer />
