@@ -15,7 +15,7 @@ export default function Hero() {
       </h3>
       <p className={inter.className}>
         A software engineer that builds digital experiences! <br />
-        Currently working on building a CMS txo make your life much easier
+        Currently working on building a CMS to make your life much easier
         at&nbsp;
         <Link
           href="https://curatecoders.com"
